@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background-color: #212121; 
+    
+}
+
+.nav {
+    width: 70%;
+    margin: auto;
+    padding: 15px 0px;
+    display: flex;
+    justify-content: space-between;
+    
+
+}
+.nav img {
+    width: 150px;
+}
+.nav a button {
+    padding: 5px 10px;
+    border-radius: 3px;
+    border: none;
+    background: white;
+    color: #212121;
+}
+.nav a {
+    text-decoration: none;
+    color: black;
+    height: 25.34px;
+}
+.main {
+    padding-bottom: 30px;
+    background-color: #282828;
+    color: white;
+}
+.internalmain {
+    width: 70%;
+    margin: auto;
+}
+.heading {
+    text-align: center;
+    padding: 20px 0px;
+}
+table, th, td {
+    border: 1px solid white;
+    border-collapse: collapse;
+}
+th, td {
+    text-align: center;
+    padding: 15px 10px;
+}
+.footer {
+    text-align: center;
+    padding: 10px 0px;
+    color: white;
+}
